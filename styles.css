@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+}
+.Pirmas {
+    grid-area: 1 / 1 / 9 / 5;;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.Antras {
+    grid-area: 8 / 2 / 12 / 4;
+    background-color: white;
+
+}
+.Trecias {
+    grid-area: 8 / 4 / 12 / 6;
+    background-color: white;
+}
+.Ketvirtas {
+    grid-area: 8 / 6 / 12 / 8;
+    background-color: white;
+}
+.Penktas {
+    grid-area: 3 / 5 / 7 / 8;
+    padding: 5%;
+}
+
+img{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    font-family:'Franklin Gothic Medium'
+}
+
+h4{
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+button {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 19px;
+    padding: 15px 50px;
+    margin-top: 20px;
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2{
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+}
